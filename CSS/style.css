@@ -35,9 +35,11 @@
 
 .cloud {
     position: absolute;
-    width: 450px;
+    width: 400px;
     animation: pipe-animation 20s infinite linear;
 }
+
+
 
 @keyframes pipe-animation{
 
@@ -73,7 +75,7 @@
 @keyframes cloud-animation {
 
 from {
-    right: -450px;
+    right: -600px;
       }
   
   
@@ -82,3 +84,5 @@ from {
       }
     
     }
+
+

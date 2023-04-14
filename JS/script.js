@@ -1,6 +1,7 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 
+
 const jump = () => {
  mario.classList.add ('jump');
 
@@ -22,11 +23,12 @@ const loop = setInterval (()=> {
         pipe.style.left = `${pipePosition}px`;
 
         mario.style.animation = 'none'
-        mario.style.left = `${MarioPosition}px`;
+        mario.style.left = `${marioPosition}px`;
 
-        mario.src = 'IMAGENS\gameover.gif';
+        mario.src = 'IMAGENS/gameover.gif';
         mario.style.width = '75px'
         mario.style.marginLeft = '50px'
+    
 
         clearInterval (loop);
     }
